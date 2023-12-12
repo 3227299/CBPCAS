@@ -231,8 +231,8 @@ bool RegisterFuncs(VMClassRegistry* registry)
 	return true;
 }
 
-
-std::string versionStr = "1.5.5";
+// AS Version
+std::string versionStr = "1.6.0";
 UInt32 version = 0x010505;
 
 extern "C" {
@@ -248,7 +248,7 @@ extern "C" {
 		"",
 
 		0,	// not version independent
-		{ RUNTIME_VERSION_1_6_353, 0 },	// compatible with 1.6.353
+		{ RUNTIME_VERSION_1_6_1130, 0 },	// compatible with 1.6.1130 and update hope so
 
 		0,	// works with any version of the script extender. you probably do not need to put anything here
 	};
